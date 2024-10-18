@@ -1,0 +1,58 @@
+/* Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: #eeeeee;
+    font-family: "Afacad Flux", serif;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Icons */
+
+.fa-star {
+    color: #008001;
+    font-size: 0.9rem;
+}
+
+.fa-chevron-right {
+    font-size: 0.5rem;
+}
+
+/* Layout */
+
+.card-wrapper .card {
+    background-color: #fff;
+    max-width: 400px;
+}
+
+.card .card-header img {
+    max-height: 70px;
+}
+
+.card .description {
+    font-size: 1.25rem;
+}
+
+.card .card-header p {
+    font-size: 1.25rem;
+}
